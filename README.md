@@ -3,4 +3,4 @@ An implementation of the RAFT leader election sub-protocol in go, spawning multi
 
 A bash script has been provided for testing on linux systems. Requires `num_nodes` open ports starting at 1200, defaulting at 10.
 
-`Usage: raft.sh [num_nodes]`
+Usage: `./raft.sh [num_nodes]`
